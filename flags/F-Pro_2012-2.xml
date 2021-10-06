@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<categoria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<circuito1>
+		<nome>Barcelona</nome>
+		<pais>Espanha</pais>
+		<abreviado>ESP</abreviado>
+	</circuito1>
+	<circuito2>
+		<nome>Montreal</nome>
+		<pais>Canadá</pais>
+		<abreviado>CAN</abreviado>
+	</circuito2>
+	<circuito3>
+		<nome>Valencia</nome>
+		<pais>Espanha</pais>
+		<abreviado>ESP</abreviado>
+	</circuito3>
+	<circuito4>
+		<nome>Silverstone</nome>
+		<pais>Grã-Bretanha</pais>
+		<abreviado>GBR</abreviado>
+	</circuito4>
+	<circuito5>
+		<nome>Hockenheim</nome>
+		<pais>Alemanha</pais>
+		<abreviado>ALE</abreviado>
+	</circuito5>
+	<circuito6>
+		<nome>Hungaroring</nome>
+		<pais>Hungria</pais>
+		<abreviado>HUN</abreviado>
+	</circuito6>
+	<circuito7>
+		<nome>Spa-Francorchamps</nome>
+		<pais>Bélgica</pais>
+		<abreviado>BEL</abreviado>
+	</circuito7>
+	<piloto>
+		<nome>Pedro Mega</nome>
+		<estado>Brazil</estado>
+		<equipe>Sinister Race Team</equipe>
+	</piloto>
+	<piloto>
+		<nome>Felipe Oliveira</nome>
+		<estado>MG</estado>
+		<equipe>Sinister Race Team</equipe>
+	</piloto>
+	<piloto>
+		<nome>Ciro Nishimura</nome>
+		<estado>SP</estado>
+		<equipe>Sinister Race Team</equipe>
+	</piloto>
+	<piloto>
+		<nome>Francis Ronney</nome>
+		<estado>Brazil</estado>
+		<equipe>Sinister Race Team</equipe>
+	</piloto>
+	<piloto>
+		<nome>Pascoal Bertoni</nome>
+		<estado>Brazil</estado>
+		<equipe>LigasOnline Racing Team</equipe>
+	</piloto>
+	<piloto>
+		<nome>Andre Kimi</nome>
+		<estado>Brazil</estado>
+		<equipe>LigasOnline Racing Team</equipe>
+	</piloto>
+	<piloto>
+		<nome>Deco Guimaraes</nome>
+		<estado>Brazil</estado>
+		<equipe>LigasOnline Racing Team</equipe>
+	</piloto>
+	<piloto>
+		<nome>Wagner Vezalli</nome>
+		<estado>Brazil</estado>
+		<equipe>LigasOnline Racing Team</equipe>
+	</piloto>
+	<piloto>
+		<nome>Wesley Regis</nome>
+		<estado>SC</estado>
+		<equipe>MidiaSom Racing</equipe>
+	</piloto>
+	<piloto>
+		<nome>Rodolpho Amorim</nome>
+		<estado>RJ</estado>
+		<equipe>MidiaSom Racing</equipe>
+	</piloto>
+	<piloto>
+		<nome>Gabriel Medeiros</nome>
+		<estado>Brazil</estado>
+		<equipe>MidiaSom Racing</equipe>
+	</piloto>
+	<piloto>
+		<nome>Mohamad Mourad</nome>
+		<estado>SP</estado>
+		<equipe>MidiaSom Racing</equipe>
+	</piloto>
+	<piloto>
+		<nome>Diogo Oliveira</nome>
+		<estado>MG</estado>
+		<equipe>Escuderia Chiara</equipe>
+	</piloto>
+	<piloto>
+		<nome>Daniel Maloni </nome>
+		<estado>SP</estado>
+		<equipe>Escuderia Chiara</equipe>
+	</piloto>
+	<piloto>
+		<nome>Marcelo Fongaro</nome>
+		<estado>Brazil</estado>
+		<equipe>Escuderia Chiara</equipe>
+	</piloto>
+	<piloto>
+		<nome>Arthur Justini</nome>
+		<estado>Brazil</estado>
+		<equipe>Escuderia Chiara</equipe>
+	</piloto>
+	<piloto>
+		<nome>Leonardo Couto</nome>
+		<estado>RJ</estado>
+		<equipe>Alliance Sky Racing</equipe>
+	</piloto>
+	<piloto>
+		<nome>Henrique Galleazzi</nome>
+		<estado>Brazil</estado>
+		<equipe>Alliance Sky Racing</equipe>
+	</piloto>
+	<piloto>
+		<nome>Rafael Cozzi</nome>
+		<estado>Brazil</estado>
+		<equipe>Alliance Sky Racing</equipe>
+	</piloto>
+	<piloto>
+		<nome>Celso Jorge</nome>
+		<estado>Brazil</estado>
+		<equipe>Alliance Sky Racing</equipe>
+	</piloto>
+	<piloto>
+		<nome>Andre Cozza</nome>
+		<estado>RS</estado>
+		<equipe>Pro Chiara Team</equipe>
+	</piloto>
+	<piloto>
+		<nome>Fagner Roberto</nome>
+		<estado>SP</estado>
+		<equipe>Pro Chiara Team</equipe>
+	</piloto>
+	<piloto>
+		<nome>Luciano Benelli</nome>
+		<estado>Brazil</estado>
+		<equipe>MSR</equipe>
+	</piloto>
+	<piloto>
+		<nome>Eliezer Nunes</nome>
+		<estado>Brazil</estado>
+		<equipe>MSR</equipe>
+	</piloto>
+	<piloto>
+		<nome>Jose Schaeffer</nome>
+		<estado>Brazil</estado>
+		<equipe>OGP Racing</equipe>
+	</piloto>
+	<piloto>
+		<nome>Alan Akbar</nome>
+		<estado>Brazil</estado>
+		<equipe>Taurus Motorsport</equipe>
+	</piloto>
+	<piloto>
+		<nome>Felipe Santoro</nome>
+		<estado>Brazil</estado>
+		<equipe>Grip Racing</equipe>
+	</piloto>
+	<piloto>
+		<nome>Rafael David</nome>
+		<estado>SP</estado>
+		<equipe>Pro Chiara Team</equipe>
+	</piloto>
+</categoria>
