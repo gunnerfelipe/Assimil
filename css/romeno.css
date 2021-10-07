@@ -321,3 +321,47 @@
         audio {
             align-items: center;
         }
+
+        /* cores das classes de palavras */
+.colored-words {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+}
+.bg-green-words {
+    background-color: #edffed;
+    border-color: #a0e4a0;
+}
+.bg-blue-words {
+	background-color: #ebffff;
+    border-color: #7fffff;
+}
+.bg-yellow-words {
+    background-color: #ffffcb;
+    border-color: #d8d865;
+}
+.bg-orange-words {
+    background-color: #ffebc7;
+    border-color: #ffa74f;
+}
+.bg-pink-words {
+    background-color: #f9deec;
+    border-color: #ff99cc;
+}
+.bg-purple-words {
+    background-color: #f7f0ff;
+    border-color: #bb78ff;
+}
+ruby rt {
+	font-size: 60%;
+}
+/* para não aparecer a opção de download no player de áudio */
+audio::-internal-media-controls-download-button {
+    display:none;
+}
+audio::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+audio::-webkit-media-controls-panel {
+    width: calc(100% + 35px); /* Adjust as needed */
+}
