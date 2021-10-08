@@ -74,20 +74,20 @@
             background-color: white;
             border-radius: 15px;
             box-shadow: 5px 5px 15px rgba(136, 109, 93, 1);
-            padding: 35px;
-            width: 1200px;
+            padding: 20px;
+            min-width: 280px;
+            max-width: 1100px;
             margin: auto;
         }
         
         summary {
-            font-family: Product Sans;
+            font-family: Open Sans;
             font-size: 28px;
             font-weight: bold;
             color: var(--cor4);
         }
         
         h1 {
-            font-family: Formula1;
             color: var(--cor4);
             text-align: left;
             text-shadow: 1px 1px 2px #063d1e(129, 77, 5);
@@ -95,7 +95,6 @@
         }
         
         h2 {
-            font-family: Formula1;
             color: #125189;
             text-align: left;
             padding: 5px;
@@ -216,13 +215,16 @@
         }
         
         #notas {
-            padding: 0px 100px 0px 30px;
+            border: groove;
+            padding: 0px 80px 0px 30px;
             font-size: 16px;
             background-color: #8888881c;
         }
         
         table#rom-l14 {
+            border: 1px solid grey;
             border-collapse: collapse;
+            border-radius: 10px;
         }
         
         th,
