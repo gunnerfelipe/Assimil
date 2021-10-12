@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino Hiragana</title>
+    <!--link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-" crossorigin="anonymous"-->
+    <link rel="stylesheet" href="css/pure-min.css">
+    <link rel="stylesheet" href="css/side-menu.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/Japan.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/alfabeto.css">
+</head>
+
+<body onload="SetQuestion()">
+    <header>
+        <h1>ASSIMIL</h1>
+        <p style="text-align: center;">The new language with ease</p>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="italiano.html">ITALIANO</a>
+            <a href="frances.html">FRANCÊS</a>
+            <a href="japones.html">JAPONÊS</a>
+            <a href="romeno.html">ROMENO</a>
+            <a href="coreano.html">COREANO</a>
+            <a href="hungaro.html">HUNGARO</a>
+            <a href="russo.html">RUSSO</a>
+            <a href="fale.html">FALE CONOSCO</a>
+        </nav>
+    </header>
+    <main>
+        <div id="main">
+            <center>
+                <div class="header">
+                    <h2>Teste de Hiragana (&#12402;&#12425;&#12364;&#12394;&nbsp;&#65411;&#65405;&#65412;)</h2>
+                </div>
+
+                <div class="content">
+                    <br>
+                    <div id="question">
+                        &nbsp;
+                    </div>
+                    <br>
+
+                    <table class="pure-table">
+                        <thead>
+                            <!--tr>
+                        <th>###</th>
+                        <th>###</th>
+                        <th>###</th>
+                        <th>###</th>
+                        <th>###</th>
+                        <th>###</th>
+                        <th>###</th>
+                    </!--tr-->
+                        </thead>
+
+                        <tbody>
+                            <tr class="pure-table-odd">
+                                <td name="line0" id="12354" onClick="check(this.id)">a</td>
+                                <td name="line0" id="12356" onClick="check(this.id)">i</td>
+                                <td name="line0" id="12358" onClick="check(this.id)">u</td>
+                                <td name="line0" id="12360" onClick="check(this.id)">e</td>
+                                <td name="line0" id="12362" onClick="check(this.id)">o</td>
+                            </tr>
+
+                            <tr>
+                                <td name="line1" id="12363" onClick="check(this.id)">ka</td>
+                                <td name="line1" id="12365" onClick="check(this.id)">ki</td>
+                                <td name="line1" id="12367" onClick="check(this.id)">ku</td>
+                                <td name="line1" id="12369" onClick="check(this.id)">ke</td>
+                                <td name="line1" id="12371" onClick="check(this.id)">ko</td>
+                            </tr>
+
+                            <tr class="pure-table-odd">
+                                <td name="line0" id="12373" onClick="check(this.id)">sa</td>
+                                <td name="line0" id="12375" onClick="check(this.id)">shi</td>
+                                <td name="line0" id="12377" onClick="check(this.id)">su</td>
+                                <td name="line0" id="12379" onClick="check(this.id)">se</td>
+                                <td name="line0" id="12381" onClick="check(this.id)">so</td>
+                            </tr>
+
+                            <tr>
+                                <td name="line1" id="12383" onClick="check(this.id)">ta</td>
+                                <td name="line1" id="12385" onClick="check(this.id)">chi</td>
+                                <td name="line1" id="12388" onClick="check(this.id)">tsu</td>
+                                <td name="line1" id="12390" onClick="check(this.id)">te</td>
+                                <td name="line1" id="12392" onClick="check(this.id)">to</td>
+                            </tr>
+
+                            <tr class="pure-table-odd">
+                                <td name="line0" id="12394" onClick="check(this.id)">na</td>
+                                <td name="line0" id="12395" onClick="check(this.id)">ni</td>
+                                <td name="line0" id="12396" onClick="check(this.id)">nu</td>
+                                <td name="line0" id="12397" onClick="check(this.id)">ne</td>
+                                <td name="line0" id="12398" onClick="check(this.id)">no</td>
+                            </tr>
+
+                            <tr>
+                                <td name="line1" id="12399" onClick="check(this.id)">ha</td>
+                                <td name="line1" id="12402" onClick="check(this.id)">hi</td>
+                                <td name="line1" id="12405" onClick="check(this.id)">fu</td>
+                                <td name="line1" id="12408" onClick="check(this.id)">he</td>
+                                <td name="line1" id="12411" onClick="check(this.id)">ho</td>
+                            </tr>
+                            <tr>
+                                <td name="line0" id="12414" onClick="check(this.id)">ma</td>
+                                <td name="line0" id="12415" onClick="check(this.id)">mi</td>
+                                <td name="line0" id="12416" onClick="check(this.id)">mu</td>
+                                <td name="line0" id="12417" onClick="check(this.id)">me</td>
+                                <td name="line0" id="12418" onClick="check(this.id)">mo</td>
+                            </tr>
+
+                            <tr>
+                                <td name="line1" id="12420" onClick="check(this.id)">ya</td>
+                                <td name="line1" onClick="check(this.id)">&nbsp;</td>
+                                <td name="line1" id="12422" onClick="check(this.id)">yu</td>
+                                <td name="line1" onClick="check(this.id)">&nbsp;</td>
+                                <td name="line1" id="12424" onClick="check(this.id)">yo</td>
+                            </tr>
+                            <tr>
+                                <td name="line0" id="12425" onClick="check(this.id)">ra</td>
+                                <td name="line0" id="12426" onClick="check(this.id)">ri</td>
+                                <td name="line0" id="12427" onClick="check(this.id)">ru</td>
+                                <td name="line0" id="12428" onClick="check(this.id)">re</td>
+                                <td name="line0" id="12429" onClick="check(this.id)">ro</td>
+                            </tr>
+                            <tr>
+                                <td name="line1" id="12431" onClick="check(this.id)">wa</td>
+                                <td name="line1" id="12434" onClick="check(this.id)">(w)o</td>
+                                <td name="line1" id="12435" onClick="check(this.id)">n</td>
+                                <td name="line1" onClick="check(this.id)">&nbsp;</td>
+                                <td name="line1" onClick="check(this.id)">&nbsp;</td>
+                            </tr>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <br>
+
+                    <div>
+                        <style scoped>
+                            .button-warning,
+                            .button-secondary {
+                                color: white;
+                                border-radius: 4px;
+                                text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+                            }
+
+                            .button-warning {
+                                background: rgb(223, 117, 20);
+                                /* this is an orange */
+                            }
+
+                            .button-secondary {
+                                background: rgb(66, 184, 221);
+                                /* this is a light blue */
+                            }
+                        </style>
+                        <button class="button-warning pure-button" id="button5"
+                            onclick="location.reload()">Reiniciar</button>
+                        <button class="button-secondary pure-button" id="button5" onclick="ResetRecord()">Reset
+                            Record</button>
+
+                        <h4 id="teste">
+                            <span id="correct">Corretas = </span><span id="right">0</span> &nbsp;&nbsp;
+                            <span id="error">Erradas = </span><span id="wrong">0</span>
+                            <br>
+                            <span id="sequenceLabel">Sequência = </span><span id="sequence">0</span> &nbsp;&nbsp;
+                            <span id="recordLabel">Recorde = </span><span id="record">0</span>
+                        </h4>
+                    </div>
+                </div>
+                <br>
+                <div class="content">
+                    <h2>Como jogar?</h2>
+                    <p>Clique no equivalente em português do caractere exibido. Se estiver errado, a resposta correta
+                        será destacada - clique nela para definir um novo caractere.</p>
+                    <p>Uma pequena ajuda para o aprendizado do alfabeto cirílico.</p>
+                </div>
+            </center>
+        </div>
+        <script src="js/ui.js"></script>
+        <script src="js/language_hiragana.js"></script>
+        </article>
+    </main>
+    <footer>
+        Material de divulgação - Sem fins lucrativos
+    </footer>
+</body>
