@@ -35,9 +35,10 @@
         
         header>p {
             color: var(--cor0);
-            font-size: 1.0em;
+            font-size: 1.2em;
             max-width: 800px;
             margin: auto;
+            padding-bottom: 5px;
             text-shadow: 2px 2px 0px rgba(0, 0, 0, 315);
         }
         
@@ -436,4 +437,5 @@ audio::-webkit-media-controls-panel {
 #update{
     font-size: 80%;
 }
+
 
