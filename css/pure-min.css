@@ -889,11 +889,11 @@ td,th {
 
 .pure-table td,.pure-table th {
     border-left: 1px solid #cbcbcb;
-    border-width: 0 0 0 1px;
-    font-size: 14pt;
-    margin: 0;
+    border-width: 1 0 0 1px;
+    font-size: 12pt;
+    margin: 1;
     overflow: visible;
-    padding: 10.4pt 1.04em
+    padding: 3.4pt 1.20em
 }
 
 .pure-table thead {
