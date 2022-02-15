@@ -258,6 +258,9 @@
             background-color: rgba(128, 128, 128, 0.418);
             width: 100%;
         }
+        td#jap07{
+            width: 20px;
+        }
         
         ul {
             padding: 0px 0px 0px 40px;
