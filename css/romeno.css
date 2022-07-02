@@ -424,6 +424,10 @@
     background-color: #f7f0ff;
     border-color: #bb78ff;
 }
+.bg-red-words {
+    background-color: #faa0a06b;
+    border-color: #FF0000;
+}
 ruby rt {
 	font-size: 60%;
 }
