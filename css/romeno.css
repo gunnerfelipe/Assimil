@@ -261,6 +261,11 @@
         td#jap07{
             width: 20px;
         }
+
+        td#mark {
+        
+            background-color: rgb(200, 200, 200);
+        }
         
         ul {
             padding: 0px 0px 0px 40px;
