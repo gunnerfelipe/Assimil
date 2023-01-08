@@ -1,10 +1,11 @@
         @charset "UTF-8";
+        /* Declaração da fonte "Formula1" que será usada no site */
         @font-face {
             font-family: 'Formula1';
             src: url(../fonts/OpenSans-Regular.ttf) format('opentype');
             src: url(../fonts/meiryo.ttc) format('opentype');
         }
-        
+        /* Declaração de variáveis de cor que serão usadas no site */
          :root {
             --cor0: #c5ebd6;
             --cor1: #83e1ad;
@@ -13,19 +14,20 @@
             --cor4: #1a5c37;
             --cor5: #063d1e;
         }
-        
+        /* Aplicação da fonte "Open Sans" para todos os elementos do site */
         * {
             font-family: 'Open Sans', sans-serif;
             margin: 0px;
             
         }
+        /* Configurações do body */
         
         body {
             background-image: linear-gradient(to right, var(--cor0));
             font-size: 13pt;
             margin: 0px;
         }
-        
+        /* Configurações do header */
         header {
             background-image: linear-gradient(to bottom, var(--cor3), var(--cor5), var(--cor5));
             min-height: 100px;
@@ -33,6 +35,7 @@
             text-align: center;
         }
         
+        /* Configurações do elemento p dentro do header */
         header>p {
             color: var(--cor0);
             font-size: 1.2em;
@@ -41,21 +44,21 @@
             padding-bottom: 5px;
             text-shadow: 2px 2px 0px rgba(0, 0, 0, 315);
         }
-        
+        /* Configurações do elemento h1 dentro do header */
         header>h1 {
             text-align: center;
-            padding-top: 20px;
+            padding-top: 1px;
             text-shadow: 2px 2px 0px rgba(0, 0, 0, 267);
             color: white;
         }
-        
+        /* Configurações dos links dentro da nav */
         nav {
             padding: 4px;
             background-color: var(--cor5);
             text-decoration: none;
             box-shadow: 0px 7px 7px rgba(0, 0, 0, 363);
         }
-        
+        /* Configurações do hover dos links dentro da nav */
         nav>a {
             color: white;
             padding: 20px;
@@ -449,5 +452,45 @@ audio::-webkit-media-controls-panel {
 #update{
     font-size: 80%;
 }
+
+  .btn {
+    width: 210px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 40px; /* Espaçamento interno */
+    color: rgb(2, 112, 2); /* Cor da fonte */
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+.btn-voltar {
+    float: left;
+    
+  }
+  
+  .btn-proximo {
+    float: right;
+
+    }
+    .btn-voltar:hover,
+.btn-proximo:hover {
+  background-color: lightgrey; /* Mudar cor de fundo quando o mouse passar por cima */
+  box-shadow: 0 4px 8px 0 green (0,0,0,0.2); /* Adicionar sombra */
+}
+
+
+ /* Personalização da barra de progresso */
+ progress {
+    width: 40%;
+    height: 18px;
+    border-radius: 50px;
+    background-color: rgb(233, 4, 4);
+    color: #125189;
+  }
+
+
+
+
 
 
