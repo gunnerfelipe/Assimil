@@ -16,3 +16,5 @@ function checkMenuVisibility() {
     }
 }
 
+// Verifica a visibilidade do menu quando o usuário rolar a página
+window.addEventListener('scroll', checkMenuVisibility);
