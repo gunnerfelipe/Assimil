@@ -6,13 +6,14 @@
     <title>Francês</title>
     <link rel="shortcut icon" href="img/France.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/romeno.css">
+    <script src="meu_script.js"></script>
 </head>
 
 <body>
     <header>
         <h1>ASSIMIL</h1>
         <p style="text-align: center;">The new language with ease</p>
-        <nav>
+        <nav id="menu">
             <a href="index.html">HOME</a>
             <a href="italiano.html">ITALIANO</a>
             <a href="frances.html">FRANCÊS</a>
@@ -28,11 +29,14 @@
 
     <main>
         <article>
-            <img src="flags/France.png" alt="" align="right">
-            <img src="flags/France.png" alt="" align="left">
-            <a href="frances057.html"><img src="img/next.jpg" alt="" align="right"></a>
-            <a href="frances055.html"><img src="img/back.jpg" alt="" align="left"></a> <br>
+            
+            <button type="button" class="btn btn-voltar" onclick="location.href='frances055.html'"><img src="flags/France.png" alt="Voltar" style="height: 15px"> Lição anterior</button>
+            <button type="button" class="btn btn-proximo" onclick="location.href='frances057.html'">Próxima Lição <img src="flags/France.png"></button>
+            <br>
             <p></p>
+            
+            <br>
+   
             <hr>
 
                                     <summary>CINQUANTE-SIXIÈME (56e) LEÇON</summary>
@@ -104,12 +108,13 @@
                     <p>
                         <strong>5 - Nota:</strong> Talvez já tenha notado de que não lhe damos muitas regras sobre o francês escrito, principalmente no que respeita a acentuação. Já sabe, contudo, a diferença entre à (preposição) e a 3ª pessoa do verbo avoir no Presente do Indicativo ; entre <strong>sur</strong> (sobre) e <strong>sûr</strong> (seguro). Esta omissão de regras é propositada porque, em primeiro lugar, queremos estimular a sua intuição e, segundo, há coisas mais importantes! Em breve aprenderá a escrever francês corretamente. Entretanto, continue a praticar os pronomes e forma verbais na “segunda onda”.
                         </p>
-
-                                
+   
                     <hr>
+                    <img class="btn-proximo" src="flags/France.png">
+                    <img class="btn-voltar" src="flags/France.png"> 
                 <table id="ita-menu">
                     <tr>
-                        <td colspan="10" rowspan="1"><strong>Índice Francês</strong></td>
+                        <td colspan="10" rowspan="1"><strong><img src="flags/France.png"> Índice Francês<strong> </strong><img src="flags/France.png"></td>
                     </tr>
                     <tr>
                         <td><a href="frances001.html">01</a></td>
@@ -259,8 +264,7 @@
 
 
                 </table>
-                <img src="flags/rumenia.png" alt="" align="right">
-                <img src="flags/rumenia.png" alt="" align="left">
+                
 </body>
 
 </html>
