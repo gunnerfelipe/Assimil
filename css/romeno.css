@@ -490,7 +490,53 @@ audio::-webkit-media-controls-panel {
   }
 
 
+  #menu.visible {
+    /* Estilos para exibir o menu */
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
 
 
 
+.top-button {
+    /* Estilos para o botão */
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
 
+.top-button.visible {
+    /* Estilos para exibir o botão */
+    display: block;
+}
+
+.top-button:hover {
+    /* Estilos para o botão quando o mouse estiver sobre ele */
+    background-color: #444;
+}
+
+.top-button:active {
+    /* Estilos para o botão quando o usuário estiver clicando nele */
+    background-color: #555;
+}
+
+.top-button:focus {
+    /* Estilos para o botão quando ele estiver focado */
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #333;
+}
