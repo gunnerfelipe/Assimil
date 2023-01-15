@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Francês</title>
+    <link rel="shortcut icon" href="img/France.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/romeno.css">
+</head>
+
+<body>
+    <header>
+        <h1>ASSIMIL</h1>
+        <p>The new language with ease</p>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="italiano.html">ITALIANO</a>
+            <a href="frances.html">FRANCÊS</a>
+            <a href="japones.html">JAPONÊS</a>
+            <a href="romeno.html">ROMENO</a>
+            <a href="coreano.html">COREANO</a>
+            <a href="hungaro.html">HUNGARO</a>
+            <a href="russo.html">RUSSO</a>
+            <a href="polones.html">POLONÊS</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <article>
+            <textarea id="text-field"></textarea><br>
+            <button id="analyze-button">Analisar texto</button>
+            <table id="word-table">
+              <thead>
+                <tr>
+                  <th>Palavra</th>
+                  <th>Frequência</th>
+                </tr>
+              </thead>
+              <tbody id="word-list"></tbody>
+            </table>
+
+            <script>
+                let analyzeButton = document.getElementById("analyze-button");
+                analyzeButton.addEventListener("click", function() {
+                  let text = document.getElementById("text-field").value;
+                  let wordFrequency = {};
+                  text.split(" ").forEach(function(word) {
+                    if (wordFrequency[word]) {
+                      wordFrequency[word]++;
+                    } else {
+                      wordFrequency[word] = 1;
+                    }
+                  });
+                  let wordList = Object.entries(wordFrequency).sort((a, b) => b[1] - a[1]);
+                  let tableBody = document.getElementById("word-list");
+                  tableBody.innerHTML = '';
+                  wordList.forEach(function(word) {
+                    let row = tableBody.insertRow();
+                    let wordCell = row.insertCell();
+                    let frequencyCell = row.insertCell();
+                    wordCell.innerHTML = word[0];
+                    frequencyCell.innerHTML = word[1];
+                  });
+                });
+              </script>
+            <!--
+            <table id="word-table">
+                <thead>
+                  <tr>
+                    <th>Word</th>
+                    <th>Frequency</th>
+                  </tr>
+                </thead>
+                <tbody id="word-list"></tbody>
+              </table>
+              <script>
+                let text = "Faça chuva ou faça sol, Sebastian Vettel vinha dominando a Fórmula 1. E parecia pronto para ampliar o domínio no GP do Canadá, que teve chuva – a ponto de interromper a corrida por duas horas – e sol, numa aparição tímida após a relargada. O alemão da RBR controlou a prova do início até última volta, quando enfim, apareceu alguém para beliscar seu reinado. Com uma reação antológica, o inglês Jenson Button ultrapassou Vettel nos instantes finais e arrancou uma vitória improvável ao conduzir sua McLaren após duas batidas e seis passagens pelos boxes, incluindo uma punição. Quatro horas depois da largada, ninguém imaginava que o desfecho seria aquele. Mas Button teve um domingo para derrubar todos os prognósticos. Como se não bastasse, o britânico ainda precisou torcer contra mais uma reviravolta, já que a direção da prova julgou dois incidentes que ele teve na corrida, um com Lewis Hamilton e outro com Fernando Alonso – os dois abandonaram. Quase duas horas depois da corrida, veio a decisão que aliviou o inglês: sem punição, vitória mantida. Um decepcionado Vettel chegou em segundo, seguido pelo companheiro Mark Webber e pelo alemão Michael Schumacher, da Mercedes. Vitaly Petrov, da Renault, foi o quinto, e Felipe Massa também tirou um feito da cartola no último instante da corrida. Após escorregar 10 posições por causa de uma parada não prevista nos boxes, o piloto da Ferrari arrancou a sexta posição quase em cima da linha de chegada, ao ultrapassar o japonês Kamui Kobayashi, da Sauber. Rubens Barrichello, da Williams, chegou em nono, na prova caótica que viu seis abandonos, incluindo Fernando Alonso, da Ferrari, e Lewis Hamilton, da McLaren. Após a batalha de Montreal, os pilotos folgam no próximo fim de semana e voltam à pista no dia 26 deste mês, para o GP da Europa, em Valência, na Espanha. Apesar do tropeço, Sebastian Vettel ainda é o líder isolado do campeonato, com 161 pontos. A vitória fez Button assumir o segundo lugar, com 101, seguido pelos 94 de Webber. Massa é o sexto da temporada, com 32.";
+                let wordFrequency = {};
+                text.split(" ").forEach(function(word) {
+                  if (wordFrequency[word]) {
+                    wordFrequency[word]++;
+                  } else {
+                    wordFrequency[word] = 1;
+                  }
+                });
+                let wordList = Object.entries(wordFrequency).sort((a, b) => b[1] - a[1]);
+                let tableBody = document.getElementById("word-list");
+                wordList.forEach(function(word) {
+                  let row = tableBody.insertRow();
+                  let wordCell = row.insertCell();
+                  let frequencyCell = row.insertCell();
+                  wordCell.innerHTML = word[0];
+                  frequencyCell.innerHTML = word[1];
+                });
+              </script>
+              -->
+</body>
+
+</html>
+
+</article>
+</main>
+<footer>
+    Material de divulgação - Sem fins lucrativos
+</footer>
+</body>

@@ -540,3 +540,37 @@ audio::-webkit-media-controls-panel {
     /* Estilos para o botão quando ele estiver focado */
     box-shadow: 0 0 0 2px #fff, 0 0 0 4px #333;
 }
+
+textarea {
+    width: 800px;
+    height: 200px;
+    display: block;
+
+        
+  }
+  textarea {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+  textarea {
+    background-color: #f2f2f2;
+    border: 2px solid #ccc;
+  }
+  
+  #analyze-button {
+    width: 210px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 40px; /* Espaçamento interno */
+    color: rgb(2, 112, 2); /* Cor da fonte */
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #analyze-button:hover,
+#analyze-button:hover {
+  background-color: lightgrey; /* Mudar cor de fundo quando o mouse passar por cima */
+  box-shadow: 0 4px 8px 0 green (0,0,0,0.2); /* Adicionar sombra */
+}
