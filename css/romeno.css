@@ -659,3 +659,39 @@ aside > p{
         background-color: #f5f5f5;
       }
       
+      .sujeito {
+        color: rgba(255, 0, 0, 0.800);
+        
+      }
+      
+      .verbo {
+        
+        color: rgba(0, 128, 0, 0.800);
+        
+      }
+      
+      .objeto {
+        color: rgba(0, 0, 255, 0.800);
+        
+      }
+      
+      .objeto-direto {
+        color: #daa520;
+      }
+      
+      .objeto-indireto {
+        color: #ff7518;
+      }
+      
+      .adjunto-adverbial {
+        color:#0aff00;
+      }
+      
+      .adjunto-nominal {
+        color: #00bfff;
+      }
+      
+      .predicado {
+        color: #ff00ffcb;
+      }
+      
