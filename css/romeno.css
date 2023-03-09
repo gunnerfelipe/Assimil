@@ -695,3 +695,11 @@ aside > p{
         color: #ff00ffcb;
       }
       
+      #contador {
+        color: rgba(139, 0, 0, 0.493);
+        font-size: 2rem;
+        font-family: Arial, sans-serif;
+      }
+      
+      
+    
