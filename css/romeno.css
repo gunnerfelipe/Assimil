@@ -127,8 +127,22 @@
             text-align: center;
         }
         
+
+        .sentence .jap {
+            color: #333;
+            font-size: 18px;
+            line-height: normal;
+          }
+          .sentence .jap ruby rt{
+            font-size: 50%;
+          }
+
         ruby {
             font-family: Meiryo;
+            
+        }
+        rt {
+            font-size: 60%;
         }
         
         p {
