@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  <script src="js/expand.js"></script>
     <header>
         <h1>ASSIMIL</h1>
         <p style="text-align: center;">The new language with ease</p>
@@ -25,12 +26,159 @@
         </nav>
     </header>
 
-
+    
 
     <main>    
         <article>
-        <details>
-            <summary>Japonês</summary>
+
+          <button class="expand-btn" onclick="expandirConteudo()">Tailandês</button>
+          <div class="content" style="display: none;">
+            <table>
+              <caption>Fórmulas prontas</caption>
+              <tr>
+                <th>Fórmula em Tailandês</th>
+                <th>Transcrição IPA</th>
+                <th>Tradução em Português</th>
+              </tr>
+              <tr>
+                <td>ฉันมาจากประเทศบราซิล (chan maa jaak bprà-têet brā-sǐn)</td>
+                <td>[t͡ɕʰan maː t͡ɕaːk praʔtʰêːt braːsin]</td>
+                <td>Eu sou do Brasil</td>
+              </tr>
+              <tr>
+                <td>ฉันไม่พูด (chan mâi pûut)</td>
+                <td>[t͡ɕʰan mâj pûːt]</td>
+                <td>Eu não falo</td>
+              </tr>
+              <tr>
+                <td>คุณพูดได้ไหม (khun pûut dâi mǎi)</td>
+                <td>[kʰun pûːt dâi mǎj]</td>
+                <td>Você fala?</td>
+              </tr>
+              <tr>
+                <td>พูดให้ฉันฟังอีกครั้ง (pûut hâi t͡ɕʰan faŋ īk khráng)</td>
+                <td>[pûːt hâj t͡ɕʰan faŋ iːk kʰráŋ]</td>
+                <td>Fale novamente para mim</td>
+              </tr>
+              <tr>
+                <td>ช้าๆ หน่อยๆ (cháa cháa nɔ̀i nɔ̀i)</td>
+                <td>[t͡ɕʰáː t͡ɕʰáː nɔ̂ːj nɔ̂ːj]</td>
+                <td>Mais devagar, por favor</td>
+              </tr>
+              <tr>
+                <td>ที่ไหน (thîi nǎi)</td>
+                <td>[tʰîː nǎi]</td>
+                <td>Onde?</td>
+              </tr>
+              <tr>
+                <td>คุณช่วยฉันได้ไหม (khun chûay t͡ɕʰan dâi mǎi)</td>
+                <td>[kʰun t͡ɕʰûa̯j t͡ɕʰan dâi mǎj]</td>
+                <td>Você pode me ajudar?</td>
+              </tr>
+            </table>
+
+  
+
+
+            <table>
+              <thead>
+                  <tr>
+                      <th colspan="3">Palavras de saudação</th>
+                  </tr>
+              </thead>
+            <tr>
+              <th>Advérbio em Tailandês</th>
+              <th>Transcrição IPA</th>
+              <th>Tradução em Português</th>
+            </tr>
+            <tr>
+              <td>ที่นี่ (thîi nîi)</td>
+              <td>[tʰîː nîː]</td>
+              <td>Aqui</td>
+            </tr>
+            <tr>
+              <td>ที่นั่น (thîi nan)</td>
+              <td>[tʰîː nan]</td>
+              <td>Lá</td>
+            </tr>
+            <tr>
+              <td>ที่ไหน (thîi nǎi)</td>
+              <td>[tʰîː nǎi]</td>
+              <td>Onde</td>
+            </tr>
+            <tr>
+              <td>ทางขวา (thaang khwaa)</td>
+              <td>[tʰaːŋ kʰwǎː]</td>
+              <td>À direita</td>
+            </tr>
+            <tr>
+              <td>ทางซ้าย (thaang sáai)</td>
+              <td>[tʰaːŋ sáːj]</td>
+              <td>À esquerda</td>
+            </tr>
+            <tr>
+              <td>ตรงไป (troŋ bpai)</td>
+              <td>[troŋ bpai]</td>
+              <td>Em frente</td>
+            </tr>
+            <tr>
+              <td>แล้ว (láew)</td>
+              <td>[láːw]</td>
+              <td>Já</td>
+            </tr>
+            <tr>
+              <td>ยัง (yang)</td>
+              <td>[jaŋ]</td>
+              <td>Ainda</td>
+            </tr>
+            <tr>
+              <td>ยังไง (yang-ngai)</td>
+              <td>[jaŋ ŋǎj]</td>
+              <td>Como</td>
+            </tr>
+            <tr>
+              <td>เมื่อไร (mêua-rai)</td>
+              <td>[mɯ̂ːa rǎj]</td>
+              <td>Quando</td>
+            </tr>
+            <tr>
+              <td>เท่าไร (thao-rai)</td>
+              <td>[tʰâw rǎj]</td>
+              <td>Quantos</td>
+            </tr>
+            <tr>
+              <td>เท่าไหร่ (thao-rài)</td>
+              <td>[tʰâw ràj]</td>
+              <td>Quanto</td>
+            </tr>
+            <tr>
+              <td>มาก (mâak)</td>
+              <td>[mâːk]</td>
+              <td>Muito</td>
+            </tr>
+            <tr>
+              <td>น้อย (nói)</td>
+              <td>[nóːj]</td>
+              <td>Pouco</td>
+            </tr>
+            <tr>
+              <td>มากกว่า (mâak-kwàa)</td>
+              <td>[mâːk kwàː]</td>
+              <td>Mais</td>
+            </tr>
+            <tr>
+              <td>น้อยกว่า (nói-kwàa)</td>
+              <td>[nóːj kwàː]</td>
+              <td>Menos</td>
+            </tr>
+          </thead>
+          </table>
+        </div>
+          <br>
+          <br>
+        <button class="expand-btn" onclick="expandirConteudo()">Japonês</button>
+        <div class="content" style="display: none;">
+
             <table>
                 <thead>
                     <tr>
@@ -564,7 +712,7 @@
       </tr>
     </tbody>
 </table>
-</details>
+</div>
 <details>
     <summary>Romeno</summary>
 
