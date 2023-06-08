@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Emil Krebs</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/romeno.css">
+</head>
+<style>
+  .content {
+    display: none;
+  }
+
+  .content.show {
+    display: block;
+  }
+
+  .button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+
+  .button:hover {
+    background-color: #45a049;
+  }
+
+  .button:active,
+  .button.active {
+    background-color: #3e8e41;
+    outline: none;
+  }
+
+  .button.active {
+    border: 2px solid #3e8e41;
+  }
+</style>
+<script>
+  function toggleContent(id) {
+    var element = document.getElementById(id);
+    var button = document.getElementById('button-' + id);
+
+    element.classList.toggle('show');
+    button.classList.toggle('active');
+  }
+</script>
+<body>
+  <script src="js/expand.js"></script>
+    <header>
+        <h1>ASSIMIL</h1>
+        <p style="text-align: center;">The new language with ease</p>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="italiano.html">ITALIANO</a>
+            <a href="frances.html">FRANCÊS</a>
+            <a href="japones.html">JAPONÊS</a>
+            <a href="romeno.html">ROMENO</a>
+            <a href="coreano.html">COREANO</a>
+            <a href="hungaro.html">HUNGARO</a>
+            <a href="russo.html">RUSSO</a>
+            <a href="polones.html">POLONÊS</a>
+        </nav>
+    </header>
+
+    
+
+    <main>    
+      <article>
+        
+      <p>Кто тебя учит русскому языку?<p>
+        <button class="button" onclick="toggleContent('ipa')" id="button-ipa">IPA</button>
+          <button class="button" onclick="toggleContent('portuguese')" id="button-pt">Tradução</button>
+          <button class="button" onclick="toggleContent('gramatica')">Gramática</button>
+        
+          	
+          <div id="ipa" class="content">
+
+            <p>kto tʲebja uˈtɕit ˈruskəmʊ jɐˈzɨku</p>
+          </div>
+        
+          <div id="portuguese" class="content">
+            <p>Quem está te ensinando russo?</p>  
+          </div>
+        
+          <div id="gramatica" class="content">
+          <p>
+            <ul>
+          <li>
+          
+            Кто (Kto): Significa "quem" em russo. É um pronome interrogativo utilizado para fazer perguntas sobre pessoas.</li>
+
+          <li>тебя (tebya): É a forma do pronome "você" na forma acusativa. Indica que a pergunta está se referindo a "você".</li>
+
+<li>учит (uchit'): É a forma do verbo "учить" (uchit) na terceira pessoa do singular, no presente. Significa "ensinar". Neste caso, está se referindo à ação de ensinar alguém.</li>
+
+<li>русскому (russkomu): É o adjetivo "русский" (russkiy) no caso dativo. Significa "russo". Nesta frase, está no caso dativo para indicar a língua sendo ensinada.</li>
+
+<li>языку (yazyku): É a forma do substantivo "язык" (yazyk) no caso dativo. Significa "língua". Nesta frase, também está no caso dativo para concordar com o adjetivo "русскому".</li>
+</ul>
+          </p>
+          </div>
+        
+ <hr>
+ <p>Где вы изучали русский язык?<p>
+  <button class="button" onclick="toggleContent('ipa')" id="button-ipa">IPA</button>
+    <button class="button" onclick="toggleContent('portuguese')" id="button-pt">Tradução</button>
+    <button class="button" onclick="toggleContent('gramatica')">Gramática</button>
+  
+      
+    <div id="ipa" class="content">
+
+      <p>[ɡdʲe vɨ ɪˈzut͡ɕɪlʲɪ ˈruskʲɪj jɐˈzɨk]</p>
+    </div>
+  
+    <div id="portuguese" class="content">
+      <p>Onde você aprendeu russo?</p>  
+    </div>
+  
+    <div id="gramatica" class="content">
+    <p>
+      <ul>
+    <li>Где (Gde): Significa "onde" em russo. É um advérbio de lugar utilizado para fazer perguntas sobre locais.</li>
+
+  <li>вы (vy): É o pronome "você" na forma de tratamento formal ou para se referir a mais de uma pessoa.</li>
+      
+    <li>изучали (izuchali): É a forma passada do verbo "изучать" (izuchat'), que significa "estudar". Neste caso, está conjugado na terceira pessoa do plural para concordar com "вы" (você).</li>
+      
+    <li>русский (russkiy): É o adjetivo "русский" (russkiy) que significa "russo". Nesta frase, está no caso acusativo para indicar o objeto direto do verbo "изучали".</li>
+      
+    <li>язык (yazyk): É o substantivo "язык" (yazyk) que significa "língua". Neste caso, está no caso acusativo para concordar com o adjetivo "русский".</li>
+    </li>
+      
+</ul>
+    </p>
+    </div>
+
+
+ 		
+    
+</div>
+</aside>
+
+</body>
+
+</html>
+
+</article>
+</main>
+<footer>
+    Material de divulgação - Sem fins lucrativos
+</footer>
+</body>
