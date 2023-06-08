@@ -4,15 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Japonês</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/Japan.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/romeno.css">
+    <script src="meu_script.js"></script>
 </head>
 
 <body>
     <header>
         <h1>ASSIMIL</h1>
         <p style="text-align: center;">The new language with ease</p>
-        <nav>
+        <nav id="menu">
             <a href="index.html">HOME</a>
             <a href="italiano.html">ITALIANO</a>
             <a href="frances.html">FRANCÊS</a>
@@ -28,13 +29,14 @@
 
     <main>
         <article>
-            <img src="flags/Japan.png" alt="" align="right">
-            <img src="flags/Japan.png" alt="" align="left">
-            <a href="japones44.html"><img src="img/next.jpg" alt="" align="right"></a>
-            <a href="japones42.html"><img src="img/back.jpg" alt="" align="left"></a> <br>
-            <p></p>
-            <hr>
+            
+            <button type="button" class="btn btn-voltar" onclick="location.href='japones42.html'"><img src="flags/Japan.png" alt="Voltar" style="height: 15px"> Lição anterior</button>
+            <button type="button" class="btn btn-proximo" onclick="location.href='japones44.html'">Próxima Lição <img src="flags/Japan.png"></button>
+            <br>
 
+            <br>
+            <hr>
+    
             <audio preload="none" style="width: 100%;" controls="controls">
                 <source type="audio/mpeg" src="audios/japones/43 - S.F..mp3" controls autoplay>
             </audio>
@@ -50,19 +52,20 @@
                 <summary>第四十三課</summary>
                 <h2>S.F.
                 </h2>
-                <p><strong>1 – </strong>あさって映画を見に行きます。</p>
-                <p><strong>2 – </strong>どんな映画を見るのですか。</p>
-                <p><strong>3 – </strong>僕はS.F.が大好きです。</p>
-                <p><strong>4 – </strong>あさって見に<span class="colored-words bg-green-words">行こうと思っている</span>映画は「宇宙冒険」といいます。 <strong>(1)</strong></p>
-                <p><strong>5 – </strong>僕はもう見ました。おもしろいですよ。</p>
-                <p><strong>6 – </strong>それは二千五百六年に起こる物語です。</p>
-                <p><strong>7 – </strong>地球のロケットの出発点は月です。</p>
-                <p><strong>8 – </strong>そして他の星と惑星へそこから飛び立つのです。</p>
-                <p><strong>9 – </strong>でも宇宙の果てから地球を侵略する悪者が出てきます。 </p>
-                <p><strong>10 – </strong>ヒーローは地球の安全を守るために、宇宙の彼方まで冒険に行くのです。</p>
-                <p><strong>11 – </strong>そして敵国の悪者の妹に恋をするのです。最後はハッピ・エンドです。</p>
-                <p><strong>12 – </strong>それなら宇宙冒険ではありませんね。恋の冒険ですね。</p>
-                <p><strong>13 – </strong>話の内容を全部聞いてしまったのでもう見に行く気がしません。僕には、恋の冒険なんて興味がありません。</p>
+                <p><strong>1 – </strong>あさって<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。</p>
+                <p><strong>2 – </strong>どんな<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>るの<ruby>です<rt></rt></ruby>か。</p>
+                <p><strong>3 – </strong><ruby>僕<rt>ぼく</rt></ruby>は<ruby>S.F.<rt>エスエフ</rt></ruby>が<ruby>大好<rt>だいす</rt></ruby>きです。</p>
+                <p><strong>4 – </strong>あさって<ruby>見<rt>み</rt></ruby>に<span class="colored-words bg-green-words"><ruby>行<rt>い</rt></ruby>こうと<ruby>思<rt>おも</rt></ruby>っている</span><ruby>映画<rt>えいが</rt><ruby>は<rt></rt>「宇宙冒険<rt>うちゅうぼうけん</rt>」<ruby>といいます<rt></rt>。 <strong>(1)</strong>  
+                </p>
+                <p><strong>5 – </strong><ruby>僕<rt>ぼく</rt></ruby>はもう見ました。おもしろいですよ。</p>
+                <p><strong>6 – </strong>それは<ruby>二千五百六年<rt>にせんごひゃくろくねん</rt></ruby>に<ruby>起<rt>お</rt></ruby>こる<ruby>物<rt>もの</rt></ruby>がたりです。</p> 
+                <p><strong>7 – </strong><ruby>地球<rt>ちきゅう</rt></ruby>のロケットの<ruby>出発点<rt>しゅっぱつてん</rt></ruby>は<ruby>月<rt>つき</rt></ruby>です。</p> 
+                <p><strong>8 – </strong>そして<ruby>他<rt>ほか</rt></ruby>の<ruby>星<rt>ほし</rt></ruby>と<ruby>惑星<rt>わくせい</rt></ruby>へそこから<ruby>飛<rt>と</rt></ruby>び<ruby>立<rt>た</rt></ruby>つのです。</p>
+                <p><strong>9 – </strong>でも<ruby>宇宙<rt>うちゅう</rt></ruby>の<ruby>果<rt>は</rt></ruby>てから<ruby>地球<rt>ちきゅう</rt></ruby>を<ruby>侵略<rt>しんりゃく</rt></ruby>する<ruby>悪者<rt>わるもの</rt></ruby>が<ruby>出<rt>で</rt></ruby>てきます。 </p>
+                <p><strong>10 – </strong>ヒーローは<ruby>地球<rt>ちきゅう</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>るために、<ruby>宇宙<rt>うちゅう</rt></ruby>の<ruby>彼方<rt>かなた</rt></ruby>まで<ruby>冒険<rt>ぼうけん</rt></ruby>に<ruby>行<rt>い</rt></ruby>くのです。</p>
+                <p><strong>11 – </strong> そして<ruby>敵国<rt>てきこく</rt></ruby>の<ruby>悪者<rt>わるもの</rt></ruby><ruby>妹<rt>いもうと</rt></ruby>に<ruby>恋<rt>こい</rt></ruby>をするのです。<ruby>最後<rt>さいご</rt></ruby>はハッピ・エンドです。</p>
+                <p><strong>12 – </strong>それなら<ruby>宇宙冒険<rt>うちゅうぼうけん</rt></ruby>ではありませんね。<ruby>恋<rt>こい</rt></ruby>の<ruby>冒険<rt>ぼうけん</rt></ruby>ですね。</p>
+                <p><strong>13 – </strong>話の<ruby>内容<rt>ないよう</rt></ruby>を<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>聞<rt>き</rt></ruby>いてしまったので<ruby>もう<rt></rt></ruby><ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>く<ruby>気<rt>き</rt></ruby>がしません。<ruby>僕<rt>ぼく</rt></ruby>には、<ruby>恋<rt>こい</rt></ruby>の冒険なんて<ruby>興味<rt>きょうみ</rt></ruby>がありません。</p>
                 
 
 
@@ -86,14 +89,14 @@
                 <h2>Ficção científica</h2>
                 <p><strong>1 – </strong>Vou ver um filme depois de amanhã.</p>
                 <p><strong>2 – </strong>Que filme você vai ver?</p>
-                <p><strong>3 – </strong>Eu amo ficção científica.</p>
-                <p><strong>4 – </strong>O filme que eu vou ver depois de amanhã se chama Aventuras Espaciais. </p>
-                <p><strong>5 – </strong>Já assisti este. É interessante.</p>
-                <p><strong>6 – </strong>É uma história que se passa no ano 256.</p>
-                <p><strong>7 – </strong>O ponto de partida para o foguete da Terra é a Lua.</p>
+                <p><strong>3 – </strong>Eu adoro ficção científica.</p>
+                <p><strong>4 – </strong>O filme que estou pensando em ver no próximo sábado se chama "Aventura Espacial". </p>
+                <p><strong>5 – </strong>Eu já vi. É divertido. </p>
+                <p><strong>6 – </strong>É uma história que se passa no ano 2556.</p>
+                <p><strong>7 – </strong>O ponto de partida da nave espacial da Terra é a Lua.</p>
                 <p><strong>8 – </strong>Depois eles voam para outras estrelas e planetas.</p>
                 <p><strong>9 – </strong>Mas, do outro lado do universo, há bandidos que invadem a Terra.</p>
-                <p><strong>10 – </strong>Os heróis vão em uma aventura até os confins do universo para manter a Terra segura.</p>
+                <p><strong>10 – </strong>Os heróis vão em uma aventura até os confins do universo para para proteger a segurança da Terra.</p>
                 <p><strong>11 – </strong>Então ele se apaixona pela irmã de um vilão de um país inimigo. O final é um "happy end".</p>
                 <p><strong>12 – </strong>Então, não é uma aventura espacial. É uma aventura amorosa.</p>
                 <p><strong>13 – </strong>Ouvi todas as histórias e não tenho vontade de voltar a vê-la. Para mim, não estou interessado em aventuras amorosas.</p>
@@ -118,10 +121,17 @@
                 <!-- Fazer um a um-->
             </details>
             </div>
+
+            
             <hr>
+
+            <hr>
+            
+            <img class="btn-proximo" src="flags/Japan.png">
+            <img class="btn-voltar" src="flags/Japan.png"> 
             <table id="ita-menu">
                 <tr>
-                    <td colspan="10" rowspan="1"><strong>Índice</strong></td>
+                    <td colspan="10" rowspan="1"><strong><img src="flags/Japan.png"> Índice Japonês<strong> </strong><img src="flags/Japan.png"></td>
                 </tr>
                 <tr>
                     <td><a href="japones01.html">01</a></td>
@@ -251,8 +261,11 @@
 
 
             </table>
-            <img src="flags/Japan.png" alt="" align="right">
-            <img src="flags/Japan.png" alt="" align="left">
+
+      <h3>
+
+      </h3>
+
 </body>
 
 </html>

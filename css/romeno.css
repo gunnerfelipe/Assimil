@@ -50,6 +50,7 @@
             padding-top: 1px;
             text-shadow: 2px 2px 0px rgba(0, 0, 0, 267);
             color: white;
+            /*color: #f7b50079; */
         }
         /* Configurações dos links dentro da nav */
         nav {
@@ -289,6 +290,10 @@
             font-weight: bold;
             clear: both;
             border-top: 1px solid #888888;
+        }
+        .pronuncia{
+            color: rgb(88, 88, 88);
+            font-size: 15px;
         }
         
         #notas {
@@ -540,3 +545,160 @@ audio::-webkit-media-controls-panel {
     /* Estilos para o botão quando ele estiver focado */
     box-shadow: 0 0 0 2px #fff, 0 0 0 4px #333;
 }
+
+textarea {
+    width: 800px;
+    height: 200px;
+    display: block;
+
+        
+  }
+  textarea {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+  textarea {
+    background-color: #f2f2f2;
+    border: 2px solid #ccc;
+  }
+  
+  #analyze-button {
+    width: 210px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 40px; /* Espaçamento interno */
+    color: rgb(2, 112, 2); /* Cor da fonte */
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #analyze-button:hover,
+#analyze-button:hover {
+  background-color: lightgrey; /* Mudar cor de fundo quando o mouse passar por cima */
+  box-shadow: 0 4px 8px 0 green (0,0,0,0.2); /* Adicionar sombra */
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    color: #004b8d;
+    font-weight: bold;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 80%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+aside{
+    background-color: rgba(211, 211, 211, 0.171);
+    
+}
+aside > h2{
+    padding: 5px;
+    background-color: var(--cor2);
+    margin: 10px 0px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside > h4{
+    padding: 10px 0px 5px 65px;
+}
+aside .summary {
+    font-family: Open Sans;
+    font-size: 10px;
+    
+}
+
+aside > p{
+    font-size: 14px;
+    }
+
+
+    .container {
+        display: flex;
+        flex-direction: row;
+      }
+      
+      .original, .traducao {
+        flex: 1;
+        padding: 10px;
+      }
+      
+      .original {
+        background-color: #eee;
+      }
+      
+      .traducao {
+        background-color: #f5f5f5;
+      }
+      
+      .sujeito {
+        color: rgba(255, 0, 0, 0.800);
+        
+      }
+      
+      .verbo {
+        
+        color: rgba(0, 128, 0, 0.800);
+        
+      }
+      
+      .objeto {
+        color: rgba(0, 0, 255, 0.800);
+        
+      }
+      
+      .objeto-direto {
+        color: #daa520;
+      }
+      
+      .objeto-indireto {
+        color: #ff7518;
+      }
+      
+      .adjunto-adverbial {
+        color:#0aff00;
+      }
+      
+      .adjunto-nominal {
+        color: #00bfff;
+      }
+      
+      .predicado {
+        color: #ff00ffcb;
+      }
+      
+      #contador {
+        color: rgba(139, 0, 0, 0.493);
+        font-size: 2rem;
+        font-family: Arial, sans-serif;
+      }
+      
+     

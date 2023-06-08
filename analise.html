@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contador de palavras</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/romeno.css">
+</head>
+
+<body>
+    <header>
+        <h1>ASSIMIL</h1>
+        <p>The new language with ease</p>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="italiano.html">ITALIANO</a>
+            <a href="frances.html">FRANCÊS</a>
+            <a href="japones.html">JAPONÊS</a>
+            <a href="romeno.html">ROMENO</a>
+            <a href="coreano.html">COREANO</a>
+            <a href="hungaro.html">HUNGARO</a>
+            <a href="russo.html">RUSSO</a>
+            <a href="polones.html">POLONÊS</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <article>
+
+        
+            <textarea id="text-field"></textarea><br>
+            <button id="analyze-button">Analisar texto</button>
+            <table id="word-table">
+              <thead>
+                <tr>
+                  <th>Palavra</th>
+                  <th>Frequência</th>
+                </tr>
+              </thead>
+              <tbody id="word-list"></tbody>
+            </table>
+
+            <script>
+                let analyzeButton = document.getElementById("analyze-button");
+                analyzeButton.addEventListener("click", function() {
+                  let text = document.getElementById("text-field").value;
+                  let wordFrequency = {};
+                  text.split(" ").forEach(function(word) {
+                    if (wordFrequency[word]) {
+                      wordFrequency[word]++;
+                    } else {
+                      wordFrequency[word] = 1;
+                    }
+                  });
+                  let wordList = Object.entries(wordFrequency).sort((a, b) => b[1] - a[1]);
+                  let tableBody = document.getElementById("word-list");
+                  tableBody.innerHTML = '';
+                  wordList.forEach(function(word) {
+                    let row = tableBody.insertRow();
+                    let wordCell = row.insertCell();
+                    let frequencyCell = row.insertCell();
+                    wordCell.innerHTML = word[0];
+                    frequencyCell.innerHTML = word[1];
+                  });
+                });
+              </script>
+             
+      
+             
+</body>
+
+</html>
+
+</article>
+</main>
+<footer>
+    Material de divulgação - Sem fins lucrativos
+</footer>
+</body>

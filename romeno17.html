@@ -6,13 +6,14 @@
     <title>Romeno</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/romeno.css">
+    <script src="meu_script.js"></script>
 </head>
 
 <body>
     <header>
         <h1>ASSIMIL</h1>
         <p style="text-align: center;">The new language with ease</p>
-        <nav>
+        <nav id="menu">
             <a href="index.html">HOME</a>
             <a href="italiano.html">ITALIANO</a>
             <a href="frances.html">FRANCÊS</a>
@@ -28,13 +29,13 @@
 
     <main>
         <article>
-            <img src="flags/rumenia.png" alt="" align="right">
-            <img src="flags/rumenia.png" alt="" align="left">
-            <a href="romeno18.html"><img src="img/next.jpg" alt="" align="right"></a>
-            <a href="romeno16.html"><img src="img/back.jpg" alt="" align="left"></a> <br>
-            <p></p>
+            
+            <button type="button" class="btn btn-voltar" onclick="location.href='romeno16.html'"><img src="flags/rumenia.png" alt="Voltar" style="height: 15px"> Lição anterior</button>
+            <button type="button" class="btn btn-proximo" onclick="location.href='romeno18.html'">Próxima Lição <img src="flags/rumenia.png"></button>
+            <br>            
+            <br>
             <hr>
-
+    
             <audio preload="none" style="width: 100%;" controls="controls">
                 <source type="audio/mpeg" src="audios/romeno/Lection 017.mp3" controls autoplay>
             </audio>
@@ -154,9 +155,12 @@
                 </div>
             </details>
             <hr>
+                
+            <img class="btn-proximo" src="flags/rumenia.png">
+            <img class="btn-voltar" src="flags/rumenia.png"> 
             <table id="ita-menu">
                 <tr>
-                    <td colspan="10" rowspan="1"><strong>Índice</strong></td>
+                    <td colspan="10" rowspan="1"><strong><img src="flags/rumenia.png"> Índice</strong> <img src="flags/rumenia.png"></td>
                 </tr>
                 <tr>
                     <td><a href="romeno01.html">01</a></td>

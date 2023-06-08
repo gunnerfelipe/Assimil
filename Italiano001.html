@@ -6,13 +6,14 @@
     <title>Italiano</title>
     <link rel="shortcut icon" href="img/italy.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/romeno.css">
+    <script src="meu_script.js"></script>
 </head>
 
 <body>
     <header>
         <h1>ASSIMIL</h1>
         <p style="text-align: center;">The new language with ease</p>
-        <nav>
+        <nav id="menu">
             <a href="index.html">HOME</a>
             <a href="italiano.html">ITALIANO</a>
             <a href="frances.html">FRANCÊS</a>
@@ -27,14 +28,15 @@
 
 
     <main>
-        <img src="flags/Italy.png" alt="" align="right">
-        <img src="flags/Italy.png" alt="" align="left">
-        <a href="italiano_introduzione.html"><img src="img/back.jpg" alt="" align="left"></a>
-        <a href="italiano002.html"><img src="img/next.jpg" alt="" align="right"></a>
-        <p></p>
-        <hr>
+
         <article>
+            
+            <button type="button" class="btn btn-voltar" onclick="location.href='italiano_introduzione.html'"><img src="flags/Italy.png" alt="Voltar" style="height: 15px"> Lição anterior</button>
+            <button type="button" class="btn btn-proximo" onclick="location.href='italiano002.html'">Próxima Lição <img src="flags/Italy.png"></button>
+            <br>            
             <br>
+            <hr>
+    
             <audio preload="none" style="width: 100%;" controls="controls">
                 <source type="audio/mpeg"
                     src="audios/italiano/Lezione_000.mp3" controls
@@ -228,41 +230,24 @@
                     </div>
                 </details>
                 <hr>
-                <img src="flags/Italy.png" alt="" align="right">
-                <img src="flags/Italy.png" alt="" align="left">
+                
+                <img class="btn-proximo" src="flags/italy.png">
+                <img class="btn-voltar" src="flags/italy.png"> 
                 <table id="ita-menu">
                     <tr>
-                        <td colspan="10" rowspan="1"><strong>Indice delle lezioni</strong></td>
+                        <td colspan="10" rowspan="1"><strong><img src="flags/Italy.png"> Indice delle lezioni</strong> <img src="flags/Italy.png"></td>
                     </tr>
                     <tr>
                         <td><a href="italiano001.html">01</a></td>
-                        <td>
-                            <a href="italiano002.html">02</a>
-                        </td>
-                        <td>
-                            <a href="italiano003.html">03</a>
-                        </td>
-                        <td>
-                            <a href="italiano004.html">04</a>
-                        </td>
-                        <td>
-                            <a href="italiano005.html">05</a>
-                        </td>
-                        <td>
-                            <a href="italiano006.html">06</a>
-                        </td>
-                        <td>
-                            <a href="italiano007.html">07</a>
-                        </td>
-                        <td>
-                            <a href="italiano008.html">08</a>
-                        </td>
-                        <td>
-                            <a href="italiano009.html">09</a>
-                        </td>
-                        <td>
-                            <a href="italiano010.html">10</a>
-                        </td>
+                        <td><a href="italiano002.html">02</a></td>
+                        <td><a href="italiano003.html">03</a></td>
+                        <td><a href="italiano004.html">04</a></td>
+                        <td><a href="italiano005.html">05</a></td>
+                        <td><a href="italiano006.html">06</a></td>
+                        <td><a href="italiano007.html">07</a></td>
+                        <td><a href="italiano008.html">08</a></td>
+                        <td><a href="italiano009.html">09</a></td>
+                        <td><a href="italiano010.html">10</a></td>
                     </tr>
                     <tr>
                         <td><a href="italiano011.html">11</a></td>
