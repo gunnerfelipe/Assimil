@@ -762,14 +762,38 @@ aside > p{
         background-color: #0056b3;
       }
   
-      .content {
-        display: none;
-        padding: 10px;
-        background-color: #F5F5F5;
-        border-radius: 4px;
-        margin-top: 10px;
-      }
-  
+   
       .expanded {
         display: block;
+      }
+      .content {
+        display: none;
+      }
+    
+      .content.show {
+        display: block;
+      }
+    
+      .button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+        margin-right: 10px;
+      }
+    
+      .button:hover {
+        background-color: #45a049;
+      }
+    
+      .button:active,
+      .button.active {
+        background-color: #3e8e41;
+        outline: none;
+      }
+    
+      .button.active {
+        border: 2px solid #3e8e41;
       }
