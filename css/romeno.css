@@ -31,8 +31,10 @@
         header {
             background-image: linear-gradient(to bottom, var(--cor3), var(--cor5), var(--cor5));
             min-height: 100px;
-            padding: 10px;
+            padding: 0px 0px 1px 0px;
             text-align: center;
+            margin-bottom: 10px; /* Ajuste este valor conforme necessário */
+            
         }
         
         /* Configurações do elemento p dentro do header */
@@ -52,6 +54,8 @@
             color: white;
             /*color: #f7b50079; */
         }
+
+        
         /* Configurações dos links dentro da nav */
         nav {
             padding: 4px;
@@ -797,3 +801,4 @@ aside > p{
       .button.active {
         border: 2px solid #3e8e41;
       }
+    
