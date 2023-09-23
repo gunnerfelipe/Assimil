@@ -12,7 +12,7 @@
     <header>
         <h1>ASSIMIL</h1>
         <p style="text-align: center;">The new language with ease</p>
-        <nav>
+        <nav id="menu">
             <a href="index.html">HOME</a>
             <a href="italiano.html">ITALIANO</a>
             <a href="frances.html">FRANCÊS</a>
@@ -21,26 +21,33 @@
             <a href="coreano.html">COREANO</a>
             <a href="hungaro.html">HUNGARO</a>
             <a href="russo.html">RUSSO</a>
-            <a href="fale.html">FALE CONOSCO</a>
+            <a href="polones.html">POLONÊS</a>
+            <a href="ipa.html">IPA</a>
         </nav>
     </header>
 
 
     <main>
         <article>
-            <img src="flags/rumenia.png" alt="" align="right">
-            <img src="flags/rumenia.png" alt="" align="left">
-            <a href="romeno04.html"><img src="img/next.jpg" alt="" align="right"></a>
-            <a href="romeno02.html"><img src="img/back.jpg" alt="" align="left"></a> <br>
-            <p></p>
+
+            <button type="button" class="btn btn-voltar" onclick="location.href='romeno02.html'"><img src="flags/Romania.png" alt="Voltar" style="height: 15px"> Lição anterior</button>
+            <button type="button" class="btn btn-proximo" onclick="location.href='romeno04.html'">Próxima Lição <img src="flags/Romania.png"></button>
+            <br>
+           
+            <br>
             <hr>
-            
-            <audio preload="none" style="width: 100%;" controls="controls">
-                <source type="audio/mpeg" src="audios/romeno/Lection 003.mp3" controls autoplay>
-            </audio>
+    
+                <audio preload="none" style="width: 100%;" controls="controls">
+                    <source type="audio/mpeg"
+                        src="audios/romeno/Lection 003.mp3" controls autoplay></audio>
+
+            <!--
+<span class="colored-words bg-green-words">
+    purple, pink, orange, yellow, blue
+-->
 
             <details open="open">
-                <summary>LECŢIA A TREIA</summary>
+                <summary>LECŢIA (3) A TREIA</summary>
                 <h2>Aveţi noroc!</h2>
                 <p><strong>1 – </strong>Ai <span class="colored-words bg-green-words">mulţi</span> prieteni la Bucureşti<span class="colored-words bg-blue-words">?</span> <strong>(1) (2)</strong></p>
                 <p><strong>2 – </strong>Nu, nu am. Sînt destul de singur.</p>
