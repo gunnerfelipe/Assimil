@@ -6,13 +6,14 @@
     <title>Italiano</title>
     <link rel="shortcut icon" href="img/italy.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/romeno.css">
+    <script src="meu_script.js"></script>
 </head>
 
 <body>
     <header>
         <h1>ASSIMIL</h1>
         <p style="text-align: center;">The new language with ease</p>
-        <nav>
+        <nav id="menu">
             <a href="index.html">HOME</a>
             <a href="italiano.html">ITALIANO</a>
             <a href="frances.html">FRANCÊS</a>
@@ -22,23 +23,25 @@
             <a href="hungaro.html">HUNGARO</a>
             <a href="russo.html">RUSSO</a>
             <a href="polones.html">POLONÊS</a>
+            <a href="ipa.html">IPA</a>
         </nav>
     </header>
 
 
     <main>
 
-        <img src="flags/Italy.png" alt="" align="right">
-        <img src="flags/Italy.png" alt="" align="left">
-        <a href="italiano062.html"><img src="img/next.jpg" alt="" align="right"></a>
-        <a href="italiano060.html"><img src="img/back.jpg" alt="" align="left "></a><br>
-        <p></p>
+            
+        <button type="button" class="btn btn-voltar" onclick="location.href='italiano060.html'"><img src="flags/Italy.png" alt="Voltar" style="height: 15px"> Lição anterior</button>
+        <button type="button" class="btn btn-proximo" onclick="location.href='italiano062.html'">Próxima Lição <img src="flags/Italy.png"></button>
+        <br>            
+        <br>
         <hr>
+
         <article>
 
             <audio preload="none" style="width: 100%;" controls="controls">
-                <source type="audio/mpeg" src="audios/italiano/Lezione_061.mp3" controls autoplay>
-            </audio>
+                <source type="audio/mpeg"
+                    src="audios/italiano/Lezione_061.mp3" controls autoplay></audio>
 
             <!--
             <span class="colored-words bg-green-words">
